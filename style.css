@@ -1,0 +1,14 @@
+/* style.css
+   Tailwind (via CDN in index.html) handles almost all of the styling
+   using utility classes directly in the HTML. This file only holds
+   small extras that Tailwind's utility classes don't cover directly.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth color transition when an option is marked correct/incorrect */
+#optionsContainer button {
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
