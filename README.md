@@ -47,7 +47,7 @@ quiz-app/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/kaviya-ux/quiz-app.git
    ```
 2. Make sure `index.html`, `style.css`, and `script.js` stay in the same folder.
 3. Open `index.html` in your browser.
