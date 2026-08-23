@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex justify-center items-center font-sans p-4">
+
+    <div class="w-full max-w-[600px] bg-white p-6 sm:p-[30px] rounded-2xl shadow-lg">
+
+        <h1 class="text-center text-gray-800 text-3xl font-bold mb-2">🧠 Quiz App</h1>
+        <p class="text-center text-gray-500 mb-6">Test your knowledge with 5 quick questions.</p>
+
+        <!-- PROGRESS BAR -->
+        <div class="w-full bg-gray-200 rounded-full h-2.5 mb-6">
+            <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+        </div>
+
+        <!-- SCORE + QUESTION COUNTER -->
+        <div class="flex justify-between text-sm text-gray-500 mb-4">
+            <span id="questionCounter">Question 1 of 5</span>
+            <span id="scoreDisplay">Score: 0</span>
+        </div>
+
+        <!-- QUIZ SCREEN -->
+        <div id="quizScreen">
+            <h2 id="questionText" class="text-xl font-semibold text-gray-800 mb-5"></h2>
+
+            <div id="optionsContainer" class="flex flex-col gap-3 mb-6"></div>
+
+            <button id="nextBtn" onclick="nextQuestion()" disabled
+                class="w-full py-3 rounded-lg text-base text-white font-medium bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors">
+                Next Question
+            </button>
+        </div>
+
+        <!-- RESULT SCREEN -->
+        <div id="resultScreen" class="hidden text-center">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">Quiz Completed!</h2>
+            <p class="text-gray-500 mb-4">Here's how you did:</p>
+            <p id="finalScore" class="text-4xl font-bold text-blue-600 mb-2"></p>
+            <p id="resultMessage" class="text-lg text-gray-600 mb-6"></p>
+            <button onclick="restartQuiz()"
+                class="w-full py-3 rounded-lg text-base text-white font-medium bg-green-600 hover:bg-green-700 transition-colors">
+                Restart Quiz
+            </button>
+        </div>
+
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
