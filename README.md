@@ -1,10 +1,6 @@
-# 🧠 Quiz App
+#  Quiz App
 
 A multiple-choice quiz built with HTML, Tailwind CSS, and vanilla JavaScript, split into three separate files (structure/style/logic) — the standard, professional way to organize a small web project. Answer 5 questions, get instant right/wrong feedback, and see your final score with a personalized result message.
-
-## Live Demo
-
-Download/clone the three files into the same folder and open `index.html` in any browser. No setup required.
 
 ## Features
 
@@ -15,13 +11,6 @@ Download/clone the three files into the same folder and open `index.html` in any
 - Running score counter updated live
 - Final results screen with score out of total and a message that changes based on performance
 - Restart button to reset the quiz and try again
-
-## Tech Stack
-
-- HTML5
-- [Tailwind CSS](https://tailwindcss.com/) (via CDN, for layout and utility styling)
-- Plain CSS (`style.css`, for the few small extras Tailwind doesn't cover)
-- Vanilla JavaScript (`script.js`, no frameworks, no libraries)
 
 ## Project Structure
 
