@@ -1,8 +1,3 @@
-// script.js
-// Handles all quiz logic: loading questions, checking answers,
-// tracking score, and showing final results.
-
-// QUESTION BANK
 const questions = [
     {
         question: "Which language runs in a web browser?",
