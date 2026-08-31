@@ -43,13 +43,6 @@ quiz-app/
 
 No installation, no npm, no build step required — just keep all three files together.
 
-## Possible Improvements
-
-- Add a timer per question
-- Add multiple quiz categories/topics to choose from
-- Shuffle question and option order on each attempt
-- Save high scores using localStorage
-
 ## License
 
 Free to use for learning or personal projects.
