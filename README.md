@@ -9,8 +9,6 @@ A multiple-choice quiz built with HTML, Tailwind CSS, and vanilla JavaScript, sp
 - Instant visual feedback on selection — correct answer highlights green, wrong pick highlights red
 - Options lock after answering so you can't change your pick
 - Running score counter updated live
-- Final results screen with score out of total and a message that changes based on performance
-- Restart button to reset the quiz and try again
 
 ## Project Structure
 
@@ -31,17 +29,6 @@ quiz-app/
 - When an option is clicked, all option buttons are disabled, the correct one is highlighted green, and the selected wrong one (if any) is highlighted red.
 - The progress bar width and question counter update based on `currentQuestionIndex / questions.length`.
 - After the last question, the quiz screen is hidden and a results screen is shown with the final score and a message tier (e.g. "Perfect score!" vs "Keep practicing!").
-
-## Running Locally
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/kaviya-ux/quiz-app.git
-   ```
-2. Make sure `index.html`, `style.css`, and `script.js` stay in the same folder.
-3. Open `index.html` in your browser.
-
-No installation, no npm, no build step required — just keep all three files together.
 
 ## License
 
