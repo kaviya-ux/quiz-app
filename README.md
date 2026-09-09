@@ -29,7 +29,3 @@ quiz-app/
 - When an option is clicked, all option buttons are disabled, the correct one is highlighted green, and the selected wrong one (if any) is highlighted red.
 - The progress bar width and question counter update based on `currentQuestionIndex / questions.length`.
 - After the last question, the quiz screen is hidden and a results screen is shown with the final score and a message tier (e.g. "Perfect score!" vs "Keep practicing!").
-
-## License
-
-Free to use for learning or personal projects.
